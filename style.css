@@ -2,40 +2,57 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  background-color: #1f1f1f;
+}
 .content {
   height: 100vh;
   position: relative;
   left: 0;
   z-index: -1;
   top: 0;
-  background-image: url(stars-1869692.jpg);
-  /* background-color: #442929; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.leftimg {
+.detail {
+  z-index: 1;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 20vw;
+  top: 40%;
+  left: 8%;
+  color: white;
+  font-family: sans-serif;
 }
-.leftimg img, .rightimg img {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.detail .hello {
+  font-weight: bold;
+  font-size: 4vh;
+  margin-bottom: 0.5rem;
 }
-.rightimg {
-  position: absolute;
-  bottom: 0;
-  right: 1.5rem;
-  width: 40vw;
+.d1 {
+  font-size: 4vh;
 }
-.name {
+.d2 {
+  font-weight: bold;
+  font-size: 10vh;
+}
+.d3 {
+  font-size: .8rem;
+  line-height: 1rem;
+  width: 20rem;
+  margin-top: 1rem;
+  margin: 1rem 0;
+}
+.detail button{
+  border: none;
+  background-color: transparent;
+  color: #0b96e691;
+  font-size: 1rem;
+}
+.detail button:hover{
+  color: #0b96e6;
+}
+/* .name {
   font-size: 2rem;
   color: rgb(248, 120, 15);
   font-weight: bold;
-}
+} */
 
 /* @media(max-width:500px){
   .leftimg img{
