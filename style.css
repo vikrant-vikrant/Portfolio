@@ -1,51 +1,44 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-.content{
-
-  width: 100vw;
-  height: 100%;
-  background-color: rgb(62, 51, 51);
-  position: absolute;
+.content {
+  height: 100vh;
+  position: relative;
   left: 0;
   z-index: -1;
   top: 0;
   background-image: url(stars-1869692.jpg);
+  /* background-color: #442929; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
 }
-/* .up{
-  z-index: 1;
-} */
-.name{
-  font-size: 2rem;
-  color: rgb(248, 120, 15);
-}
-.space {
-  
-}
-.leftimg{
+.leftimg {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 10rem;
-  width: 10rem;
-  background-image: url(color-scheme-left.svg);
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  width: 20vw;
 }
-.rightimg{
+.leftimg img, .rightimg img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rightimg {
   position: absolute;
   bottom: 0;
   right: 1.5rem;
-  height: 25rem;
-  width: 25rem;
-  background-image: url(color-scheme-right.svg);
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  width: 40vw;
 }
+.name {
+  font-size: 2rem;
+  color: rgb(248, 120, 15);
+  font-weight: bold;
+}
+
+/* @media(max-width:500px){
+  .leftimg img{
+    display: none;
+  }
+} */
