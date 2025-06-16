@@ -69,3 +69,28 @@
 .hl-blue {
   color: #0b96e691;
 }
+.about{
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* padding: 130px 0; */
+}
+.name{
+  width: 50vw;
+  background-color: rgb(93, 29, 29);
+  font-weight: bold;
+  font-size: 2rem;
+  /* padding: 1rem 1rem; */
+  top:auto
+}
+
+.d4{
+  width: 50vw;
+  background-color: rgb(117, 9, 9);
+
+}
+.d4 div{
+  padding: 8px 10px;
+}
