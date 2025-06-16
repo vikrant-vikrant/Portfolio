@@ -13,4 +13,8 @@ VANTA.GLOBE({
   backgroundColor: 0x1f1f1f,
 });
 
+// let hey = document.querySelector(".hl-blue");
+// hey.onmouseenter = (function(){
+//   console.log('Something move');
+// });
 
